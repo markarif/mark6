@@ -1,0 +1,174 @@
+body { background-color: #FFFFFF; 
+       background-image: url(background.jpg); 
+       color: #666666; 
+       font-family: Verdana, Arial, sans-serif; 
+}
+
+h1 { background-color: #000033; 
+     background-image: url(sunset.jpg); 
+     background-position: right; 
+     background-repeat: no-repeat; 
+     padding-left: 20px; 
+     height: 72px; 
+     color: #FFFFFF; 
+     font-family: Georgia, serif; 
+     line-height: 200%; 
+     margin-bottom: 0; 
+}
+
+h2 { color: #3399CC; 
+     font-family: Georgia, serif; 
+}
+
+h3 { color: #000033; 
+}
+
+dt { color: #000033; 
+}
+
+/* Configure Resort Name */
+.resort { color: #000033; 
+          font-size: 1.2em; 
+}
+
+/* Configure Content */
+#content { background-color: #FFFFFF; 
+           margin-left: 160px; 
+           padding-top: 1px; 
+           padding-left: 20px; 
+           padding-right: 20px; 
+}
+
+/* Configure Images */
+#content img, #content video, #content embed { float: left; 
+                                               padding-right: 20px;
+}
+
+#gallery {position: relative; 
+}
+
+#gallery ul {list-style-type: none; 
+             width: 300px; 
+}
+
+#gallery li { display: inline; 
+              float: left; 
+	      padding: 10px; 
+}
+	 
+#gallery img {border-style: none; 
+              float: none; 
+}
+
+#gallery a { text-decoration: none; 
+             font-style: italic; 
+             color: #333; 
+}
+
+#gallery span {display: none; 
+}
+
+#gallery a:hover span {display: block;   
+                       position: absolute; 
+                       top: 10px; 
+                       left: 340px; 
+                       text-align: center; 
+}  
+
+/* Clears Float */
+.clear { clear: left; 
+}
+
+/* Configure Unordered Lists */
+#content ul { list-style-position: inside; 
+}
+
+/* Configure Navigation */
+#nav { font-weight: bold;
+       float: left;
+       transition: color 0.5s ease;
+       width: 160px; 
+       padding-top: 20px; 
+       padding-right: 5px; 
+       padding-bottom: 5px; 
+       padding-left: 20px; 
+}
+
+/* Configre Navigation Hyperlinks */
+#nav a { text-decoration: none; 
+}
+
+/* Configure Navigation Hyperlinks Pseudo-Classes */
+
+#nav a:link { color: #000033; 
+}
+
+#nav a:visited { color: #344873;
+}
+
+#nav a:hover { color: #FFFFFF; 
+}
+
+/* Configure Navigation Unordered List */
+#nav ul { list-style-type: none; 
+          margin: 0; 
+          padding-left: 0; 
+}
+
+/* Configure Footer */
+#footer { font-size: .70em; 
+          font-style: italic; 
+          text-align: center; 
+          padding: 10px; 
+          clear: both; 
+}
+
+/* Configure Page */
+#wrapper { background-color: #90C7E3; 
+           min-width: 960px; 
+           -webkit-box-shadow: 5px 5px 5px #828282; 
+           -moz-box-shadow: 5px 5px 5px #828282; 
+           box-shadow: 5px 5px 5px #828282; 
+           width:80%; 
+           margin-left: auto; 
+           margin-right: auto; 
+}
+
+/* Configure Table */
+table { border: 1px solid #3399CC; 
+        border-spacing: 0; 
+        margin: auto; 
+        width: 600px; 
+}
+
+td, th { border: 1px solid #3399CC; 
+         padding: 5px; 
+}
+
+td { text-align: center; 
+}
+
+.text { text-align: left; 
+}
+
+tr:nth-of-type(even) { background-color: #F5FAFC; 
+}
+
+/* Configure Form */
+form { width: 350px; 
+       padding: 10px;	
+}
+
+label { float: left; 
+	display: block; 
+	text-align: left; 
+	width: 120px; 
+	padding-right: 10px; 
+}
+
+input, textarea { margin-bottom: 20px; 
+                  display: block; 
+} 
+
+#mySubmit { margin-left: 130px; 
+}

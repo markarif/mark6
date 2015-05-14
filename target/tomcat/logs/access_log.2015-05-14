@@ -1,0 +1,14 @@
+0:0:0:0:0:0:0:1 - - [14/May/2015:08:57:27 +0300] "GET /SpringAssignment HTTP/1.1" 302 - http-bio-8080-exec-2 0
+0:0:0:0:0:0:0:1 - - [14/May/2015:08:57:41 +0300] "GET /SpringAssignment/ HTTP/1.1" 200 3605 http-bio-8080-exec-3 12537
+0:0:0:0:0:0:0:1 - - [14/May/2015:08:57:47 +0300] "GET /SpringAssignment/drug HTTP/1.1" 200 6397 http-bio-8080-exec-4 236
+0:0:0:0:0:0:0:1 - - [14/May/2015:08:57:57 +0300] "GET /SpringAssignment/allocate?id=1 HTTP/1.1" 200 1173 http-bio-8080-exec-5 3219
+0:0:0:0:0:0:0:1 - - [14/May/2015:08:58:07 +0300] "POST /SpringAssignment/save HTTP/1.1" 200 5210 http-bio-8080-exec-7 489
+0:0:0:0:0:0:0:1 - - [14/May/2015:08:58:14 +0300] "GET /SpringAssignment/ HTTP/1.1" 200 3605 http-bio-8080-exec-8 35
+0:0:0:0:0:0:0:1 - - [14/May/2015:08:58:16 +0300] "GET /SpringAssignment/drug HTTP/1.1" 200 6717 http-bio-8080-exec-9 62
+0:0:0:0:0:0:0:1 - - [14/May/2015:08:58:44 +0300] "GET /SpringAssignment/ HTTP/1.1" 200 3605 http-bio-8080-exec-10 28
+127.0.0.1 - - [14/May/2015:10:37:11 +0300] "GET /SpringAssignment HTTP/1.1" 302 - http-bio-8080-exec-1 0
+127.0.0.1 - - [14/May/2015:10:37:17 +0300] "GET /SpringAssignment/ HTTP/1.1" 500 17491 http-bio-8080-exec-7 5500
+127.0.0.1 - - [14/May/2015:10:42:56 +0300] "GET /SpringAssignment HTTP/1.1" 302 - http-bio-8080-exec-1 0
+127.0.0.1 - - [14/May/2015:10:43:01 +0300] "GET /SpringAssignment/ HTTP/1.1" 500 17491 http-bio-8080-exec-7 5192
+127.0.0.1 - - [14/May/2015:10:44:16 +0300] "GET /SpringAssignment HTTP/1.1" 302 - http-bio-8080-exec-1 0
+127.0.0.1 - - [14/May/2015:10:44:20 +0300] "GET /SpringAssignment/ HTTP/1.1" 200 3720 http-bio-8080-exec-7 4729
